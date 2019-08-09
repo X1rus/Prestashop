@@ -1,5 +1,6 @@
 package pages;
 
+import data.Currencies;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -20,24 +21,41 @@ public class AHeadComponent {
     @FindBy(css = "#_desktop_user_info > div > a > span")
     private WebElement signIn;
 
-    @FindBy(css = "#category-6")
-    private WebElement accessoriesButton;
-
     @FindBy(css = "#category-3")
     private WebElement clothesButton;
 
+    @FindBy(css = "#category-4")
+    private WebElement menClothesButton;
+
+    @FindBy(css = "#category-6")
+    private WebElement accessoriesButton;
+
+    @FindBy(css = "#category-7")
+    private WebElement stationeryAccessoriesButton;
+
     @FindBy(css = "#category-9")
     private WebElement artButton;
-
-    @FindBy(css = "#category-4")
-    private WebElement menButton;
 
     private DropdownOptions dropdownOptions;
     @FindBy(xpath = "//div[@id=\"_desktop_cart\"]")
     private WebElement cartButton;
     @FindBy(css = "#_desktop_currency_selector > div > button ")
     private WebElement currencyMenu;
-
+    //Switch for choose currency
+    public void chooseCurrency(Currencies currency) {
+        clickCurrencyMenu();
+        switch (currency) {
+            case EURO:
+                driver.findElement(By.xpath("//*[@title=\"Euro\"]")).click();
+                break;
+            case UAH:
+                driver.findElement(By.xpath("//*[@title=\"Ukrainian Hryvnia\"]")).click();
+                break;
+            case USD:
+                driver.findElement(By.xpath("//*[@title=\"US Dollar\"]")).click();
+                break;
+        }
+    }
     @FindBy(xpath = "//*[@title=\"US Dollar\"]")
     private WebElement currencyUsd;
 
@@ -245,18 +263,14 @@ public class AHeadComponent {
 
 
     // menuTop
-    public CategoryPage clickAccessoriesButton() {
-        accessoriesButton.click();
-        return new CategoryPage(driver);
-    }
 
     public CategoryPage clickClothesButton() {
         clothesButton.click();
         return new CategoryPage(driver);
     }
 
-    public CategoryPage clickArtButton() {
-        artButton.click();
+    public CategoryPage clickMenClothesButton() {
+        menClothesButton.click();
         return new CategoryPage(driver);
     }
 
@@ -265,9 +279,24 @@ public class AHeadComponent {
         builder.moveToElement(clothesButton).perform();
     }
 
+    public CategoryPage clickAccessoriesButton() {
+        accessoriesButton.click();
+        return new CategoryPage(driver);
+    }
+
+    public CategoryPage clickStationeryAccessoriesButton() {
+        stationeryAccessoriesButton.click();
+        return new CategoryPage(driver);
+    }
+
     public void hoverAccessoriesButton() {
         Actions builder = new Actions(driver);
         builder.moveToElement(accessoriesButton).perform();
+    }
+
+    public CategoryPage clickArtButton() {
+        artButton.click();
+        return new CategoryPage(driver);
     }
 
     // dropdownOptions

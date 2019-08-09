@@ -1,46 +1,66 @@
 package test;
 
+import data.Currencies;
 import io.qameta.allure.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SelectSomeClothesPage;
 import pages.ShoppingCartPage;
 import tools.TestRunner;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.text.DecimalFormat;
-
 
 @Epic("@Epic AllureTestCurrency")
-@Feature("@Feature Check_Exchange_Currency")
 public class AllureTestCurrency extends TestRunner {
+    @DataProvider
+    public Object[][] currencyData() {
+        // Read from ...
+        return new Object[][]{
+                {data.Currencies.EURO, "Euro"},
+                {data.Currencies.UAH, "Ukrainian Hryvnia"},
+                {data.Currencies.USD, "US Dollar"}
+        };
+    }
+    @Description("@Description class AllureTestCurrency; checkCurrency().")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(dataProvider = "currencyData", priority = 1)
+    public void checkCurrency(Currencies currency, String title) {
+        //
+        HomePage homePage = new HomePage(driver);
 
-    @Attachment(value = "{0}", type = "image/png")
-    public byte[] saveImageAttach() {
-        byte[] result = null;
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        try {
-            result = Files.readAllBytes(scrFile.toPath());
-        } catch (IOException e) {
-            // TODO Create Custom Exception
-            e.printStackTrace();
-        }
-        return result;
+        // Steps
+        homePage.chooseCurrency(currency);
+        delayExecution(1000); //Only for Presentation
+
+        // Check
+        Assert.assertEquals(homePage.getCurrencyTextUa(), "Ukrainian Hryvnia");
+        Assert.assertEquals(homePage.getCurrencyTextEu(), "Euro");
+        Assert.assertEquals(homePage.getCurrencyTextUsd(), "US Dollar");
+    }
+    @Description("@Description class AllureTestCurrency; checkCurrencyForOneElement().")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 2)
+    public void checkCurrencyForOneElement() throws InterruptedException {
+        String expected = "495.21";
+        HomePage homePage = new HomePage(driver);
+        delayExecution(1000); //Only for presentation
+        //e
+        // Steps
+        homePage.clicktShirt();
+        homePage.clickCurrencyMenu();
+        homePage.clickCurrencyUa();
+        delayExecution(1000); //Only for presentation
+        // Check
+        Assert.assertEquals(homePage.getProductPriceText(), expected);
     }
 
-    @Description("@Description class AllureTestCurrency; checkExchangeCurrency().")
-    @Severity(SeverityLevel.CRITICAL)
-    @Story("@Story check_Product_Currency STORY")
-
-    @Test
-    public void checkExcangeCurrency() throws Exception {
+    @Description("@Description class AllureTestCurrency; checkExchangeCurrencyUsdToUah().")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 3)
+    public void checkExchangeCurrencyUsdToUa() throws Exception {
+        double expected = 495.21;
+        double UAH = 28.5;
         HomePage homePage = new HomePage(driver);
         ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
 
@@ -48,26 +68,55 @@ public class AllureTestCurrency extends TestRunner {
 
         SelectSomeClothesPage clothesPage = new SelectSomeClothesPage(driver);
         clothesPage.clickToAddButton();
-        delayExecution(1000);
+        delayExecution(1000); //Only for presentation
 
         shoppingCartPage.clickOrderButton();
-        delayExecution(2000);
+        delayExecution(1000); //Only for presentation
+        homePage.clickCurrencyMenu();
+        homePage.clickCurrencyUsd();
 
         double usd = Double.parseDouble(shoppingCartPage.getProductPriceText().substring(1));
-        final double UAH = 25.9;
-        DecimalFormat f = new DecimalFormat("##.00");
-        double exchange = UAH * usd;
+        double exchange = Math.round((UAH * usd) * 100.0) / 100.0;
 
-        Assert.assertEquals(f.format(exchange), 495.21);
+        homePage.clickCurrencyMenu();
+        homePage.clickCurrencyUa();
+        shoppingCartPage.clickDeleteButton();
 
-    }
-
-    @AfterMethod
-    public void afterMethod(ITestResult testResult) {
-        if (!testResult.isSuccess()) {
-            saveImageAttach();
-        }
+        Assert.assertEquals(exchange, expected);
 
     }
+
+    @Description("@Description class AllureTestCurrency; checkExchangeCurrencyUsdToEu().")
+    @Severity(SeverityLevel.NORMAL)
+    @Test(priority = 4)
+    public void checkExchangeCurrencyUsdToEu() throws Exception {
+        double expected = 15.3;
+
+        HomePage homePage = new HomePage(driver);
+        ShoppingCartPage shoppingCartPage = new ShoppingCartPage(driver);
+
+        homePage.getProductsListComponent().getProductComponentByPartialName("Hummingbird Printed T-Shirt").clickToProduct();
+
+        SelectSomeClothesPage clothesPage = new SelectSomeClothesPage(driver);
+        clothesPage.clickToAddButton();
+        delayExecution(1000); //Only for presentation
+
+        shoppingCartPage.clickOrderButton();
+
+        delayExecution(1000); //Only for presentation
+
+        homePage.clickCurrencyMenu();
+        homePage.clickCurrencyUsd();
+        DB db = new DB();
+        double usd = Double.parseDouble(shoppingCartPage.getProductPriceText().substring(1));
+        double actual = Math.round((db.euro() * usd) * 100.0) / 100.0;
+
+        Assert.assertEquals(actual, expected);
+    }
+
+
+
+
 }
+
 

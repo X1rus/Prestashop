@@ -1,19 +1,15 @@
 package test;
 
 import data.Category;
-import pages.CategoryPage;
-import pages.HomePage;
-import tools.TestRunner;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.CategoryPage;
+import pages.HomePage;
+import tools.TestRunner;
 
 public class HorizontalAndVerticalTest extends TestRunner {
-
     public HomePage homePage;
 
     @BeforeMethod
@@ -21,8 +17,9 @@ public class HorizontalAndVerticalTest extends TestRunner {
         homePage = loadApplication();
     }
 
-    @Test
-    public void checkClothes() {
+    @Description("checkClothes")
+    @Test(priority = 1)
+    public void checkClothes() throws InterruptedException {
         //Arrange
         CategoryPage clothesPage;
         String actual;
@@ -30,14 +27,35 @@ public class HorizontalAndVerticalTest extends TestRunner {
 
         //Act
         clothesPage = homePage.clickClothesButton();
+        delayExecution(500); //Only for presentation
         actual = clothesPage.getCategoryName();
 
         //Assert
         Assert.assertEquals(actual, expected);
     }
 
-    @Test
-    public void checkAccessories() {
+    @Description("checkMenClothes")
+    @Test(priority = 2)
+    public void checkMenClothes() throws InterruptedException {
+        //Arrange
+        CategoryPage menClothesPage;
+        String actual;
+        String expected = Category.MEN.toString();
+
+        //Act
+        homePage.hoverClothesButton();
+        delayExecution(500); //Only for presentation
+        menClothesPage = homePage.clickMenClothesButton();
+        delayExecution(500); //Only for presentation
+        actual = menClothesPage.getCategoryName();
+
+        //Assert
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Description("checkAccessories")
+    @Test(priority = 3)
+    public void checkAccessories() throws InterruptedException {
         //Arrange
         CategoryPage accessoriesPage;
         String actual;
@@ -51,7 +69,25 @@ public class HorizontalAndVerticalTest extends TestRunner {
         Assert.assertEquals(actual, expected);
     }
 
-    @Test
+    @Description("checkStationeryAccessories")
+    @Test(priority = 4)
+    public void checkStationeryAccessories() {
+        //Arrange
+        CategoryPage stationeryAccessoriesPage;
+        String actual;
+        String expected = Category.STATIONERY.toString();
+
+        //Act
+        homePage.hoverAccessoriesButton();
+        stationeryAccessoriesPage = homePage.clickStationeryAccessoriesButton();
+        actual = stationeryAccessoriesPage.getCategoryName();
+
+        //Assert
+        Assert.assertEquals(actual, expected);
+    }
+
+    @Description("checkArt")
+    @Test(priority = 5)
     public void checkArt() {
         //Arrange
         CategoryPage artPage;
@@ -61,38 +97,6 @@ public class HorizontalAndVerticalTest extends TestRunner {
         //Act
         artPage = homePage.clickArtButton();
         actual = artPage.getCategoryName();
-
-        //Assert
-        Assert.assertEquals(actual, expected);
-    }
-
-    @Test
-    public void testMouseHoverWorksProperlyClothes() {
-        //Arrange
-        String expected = Category.MEN.toString();
-
-        //Act
-        homePage.hoverClothesButton();
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#category-4")));
-        WebElement menElement = driver.findElement(By.cssSelector("#category-4"));
-        String actual = menElement.getText();
-
-        //Assert
-        Assert.assertEquals(actual, expected);
-    }
-
-    @Test
-    public void testMouseHoverWorksPropertyAccessories() {
-        //Arrange
-        String expected = Category.STATIONERY.toString();
-
-        //Act
-        homePage.hoverAccessoriesButton();
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#category-7")));
-        WebElement stationeryElement = driver.findElement(By.cssSelector("#category-7"));
-        String actual = stationeryElement.getText();
 
         //Assert
         Assert.assertEquals(actual, expected);
