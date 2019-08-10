@@ -5,7 +5,7 @@
             <class name="test.TestSearch" />
             <class name="test.HorizontalAndVerticalTest" />
             <class name="test.TestCartFunctional" />
-            <class name="test.CurrencyTest" />
+            <class name="test.AllureTestCurrency" />
 <!--            <class name="test.TestLoginForm" />-->
         </classes>
     </test>
