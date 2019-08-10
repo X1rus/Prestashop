@@ -6,5 +6,5 @@ public enum Category {
     АКСЕСУАРИ,
     ART,
     MEN,
-    STATIONERY;
+    STATIONERY
 }
