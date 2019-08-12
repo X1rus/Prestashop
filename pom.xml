@@ -17,7 +17,6 @@
     </properties>
 
 
-
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
@@ -103,7 +102,6 @@
             <version>1.0.4</version>
         </dependency>
 
-
     </dependencies>
 
     <build>
@@ -128,6 +126,7 @@
                         <source>1.8</source>
                         <target>1.8</target>
                         <encoding>UTF-8</encoding>
+
                     </configuration>
                 </plugin>
 
@@ -140,6 +139,13 @@
                         <argLine>
                             -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
                         </argLine>
+
+                        <systemProperties>
+                            <property>
+                                <name>allure.results.directory</name>
+                                <value>C:\Program Files (x86)\Jenkins\workspace\Lv413\allure-report</value>
+                            </property>
+                        </systemProperties>
                     </configuration>
                     <dependencies>
                         <dependency>
