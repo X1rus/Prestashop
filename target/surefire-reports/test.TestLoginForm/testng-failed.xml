@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [test.TestLoginForm]" verbose="0">
+  <test thread-count="1" name="Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171(failed)" verbose="0">
+    <classes>
+      <class name="test.TestLoginForm">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AtestSignIn"/>
+          <include name="testChangePassword"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="testChangeUserInfo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.TestLoginForm -->
+    </classes>
+  </test> <!-- Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171(failed) -->
+</suite> <!-- Failed suite [test.TestLoginForm] -->

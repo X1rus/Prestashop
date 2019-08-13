@@ -1,5 +1,5 @@
-# Created at 2019-07-30T14:30:14.129
-Boot Manifest-JAR contains absolute paths in classpath E:\demo3\Prestashop\target\test-classes
+# Created at 2019-08-13T18:49:09.759
+Boot Manifest-JAR contains absolute paths in classpath D:\PrestaShop\Prestashop\target\test-classes
 java.lang.IllegalArgumentException: 'other' has different root
 	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:404)
 	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:42)
@@ -38,8 +38,8 @@ java.lang.IllegalArgumentException: 'other' has different root
 	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
 
 
-# Created at 2019-07-30T14:30:14.131
-Boot Manifest-JAR contains absolute paths in classpath E:\demo3\Prestashop\target\classes
+# Created at 2019-08-13T18:49:09.760
+Boot Manifest-JAR contains absolute paths in classpath D:\PrestaShop\Prestashop\target\classes
 java.lang.IllegalArgumentException: 'other' has different root
 	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:404)
 	at java.base/sun.nio.fs.WindowsPath.relativize(WindowsPath.java:42)
