@@ -130,12 +130,6 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>D:\PrestaShop\Prestashop\testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
-                        <systemProperties>
-                            <property>
-                                <name>allure.results.directory</name>
-                                <value>C:\Program Files (x86)\Jenkins\workspace\Lv413\allure-report</value>
-                            </property>
-                        </systemProperties>
                     </configuration>
                     <dependencies>
                         <dependency>

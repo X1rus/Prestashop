@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="20" passed="16" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-13T15:49:13Z" name="PrestashopTest" finished-at="2019-08-13T15:50:41Z" duration-ms="88134">
+  <suite started-at="2019-08-13T16:10:11Z" name="PrestashopTest" finished-at="2019-08-13T16:11:34Z" duration-ms="82588">
     <groups>
     </groups>
-    <test started-at="2019-08-13T15:49:13Z" name="Currency TEst" finished-at="2019-08-13T15:49:46Z" duration-ms="33450">
+    <test started-at="2019-08-13T16:10:11Z" name="Currency TEst" finished-at="2019-08-13T16:10:44Z" duration-ms="32552">
       <class name="test.AllureTestCurrency">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:13Z" name="setUp" finished-at="2019-08-13T15:49:19Z" duration-ms="5828" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:11Z" name="setUp" finished-at="2019-08-13T16:10:16Z" duration-ms="5021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:19Z" name="beforeMethod" finished-at="2019-08-13T15:49:21Z" duration-ms="2360" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:16Z" name="beforeMethod" finished-at="2019-08-13T16:10:19Z" duration-ms="2423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:21Z" name="checkCurrency" data-provider="currencyData" finished-at="2019-08-13T15:49:24Z" duration-ms="2557" status="PASS">
+        <test-method signature="checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:19Z" name="checkCurrency" data-provider="currencyData" finished-at="2019-08-13T16:10:21Z" duration-ms="2596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,22 +31,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrency -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:24Z" name="afterMethod" finished-at="2019-08-13T15:49:24Z" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:21Z" name="afterMethod" finished-at="2019-08-13T16:10:21Z" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@2b97cc1f] output={null}]]]>
+                <![CDATA[[TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@189b5fb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:24Z" name="beforeMethod" finished-at="2019-08-13T15:49:24Z" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:21Z" name="beforeMethod" finished-at="2019-08-13T16:10:22Z" duration-ms="365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:24Z" name="checkCurrency" data-provider="currencyData" finished-at="2019-08-13T15:49:26Z" duration-ms="2102" status="PASS">
+        <test-method signature="checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:22Z" name="checkCurrency" data-provider="currencyData" finished-at="2019-08-13T16:10:24Z" duration-ms="2035" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,22 +62,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrency -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:26Z" name="afterMethod" finished-at="2019-08-13T15:49:26Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:24Z" name="afterMethod" finished-at="2019-08-13T16:10:24Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@2b97cc1f] output={null}]]]>
+                <![CDATA[[TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@189b5fb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:26Z" name="beforeMethod" finished-at="2019-08-13T15:49:27Z" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:24Z" name="beforeMethod" finished-at="2019-08-13T16:10:24Z" duration-ms="317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:27Z" name="checkCurrency" data-provider="currencyData" finished-at="2019-08-13T15:49:29Z" duration-ms="2084" status="PASS">
+        <test-method signature="checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:24Z" name="checkCurrency" data-provider="currencyData" finished-at="2019-08-13T16:10:26Z" duration-ms="1986" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,41 +93,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrency -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:29Z" name="afterMethod" finished-at="2019-08-13T15:49:29Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:26Z" name="afterMethod" finished-at="2019-08-13T16:10:26Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@2b97cc1f] output={null}]]]>
+                <![CDATA[[TestResult name=checkCurrency status=SUCCESS method=AllureTestCurrency.checkCurrency(data.Currencies, java.lang.String)[pri:1, instance:test.AllureTestCurrency@189b5fb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:29Z" name="beforeMethod" finished-at="2019-08-13T15:49:29Z" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:26Z" name="beforeMethod" finished-at="2019-08-13T16:10:27Z" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkCurrencyForOneElement()[pri:2, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:29Z" name="checkCurrencyForOneElement" finished-at="2019-08-13T15:49:33Z" duration-ms="4078" status="PASS">
+        <test-method signature="checkCurrencyForOneElement()[pri:2, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:27Z" name="checkCurrencyForOneElement" finished-at="2019-08-13T16:10:31Z" duration-ms="3986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCurrencyForOneElement -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:33Z" name="afterMethod" finished-at="2019-08-13T15:49:33Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:31Z" name="afterMethod" finished-at="2019-08-13T16:10:31Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkCurrencyForOneElement status=SUCCESS method=AllureTestCurrency.checkCurrencyForOneElement()[pri:2, instance:test.AllureTestCurrency@2b97cc1f] output={null}]]]>
+                <![CDATA[[TestResult name=checkCurrencyForOneElement status=SUCCESS method=AllureTestCurrency.checkCurrencyForOneElement()[pri:2, instance:test.AllureTestCurrency@189b5fb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:33Z" name="beforeMethod" finished-at="2019-08-13T15:49:34Z" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:31Z" name="beforeMethod" finished-at="2019-08-13T16:10:31Z" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkExchangeCurrencyUsdToUa()[pri:3, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:34Z" name="checkExchangeCurrencyUsdToUa" finished-at="2019-08-13T15:49:38Z" duration-ms="4854" status="FAIL">
+        <test-method signature="checkExchangeCurrencyUsdToUa()[pri:3, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:31Z" name="checkExchangeCurrencyUsdToUa" finished-at="2019-08-13T16:10:36Z" duration-ms="5023" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [495.21] but found [544.92]]]>
@@ -175,22 +175,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExchangeCurrencyUsdToUa -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:38Z" name="afterMethod" finished-at="2019-08-13T15:49:39Z" duration-ms="328" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:36Z" name="afterMethod" finished-at="2019-08-13T16:10:36Z" duration-ms="331" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkExchangeCurrencyUsdToUa status=FAILURE method=AllureTestCurrency.checkExchangeCurrencyUsdToUa()[pri:3, instance:test.AllureTestCurrency@2b97cc1f] output={null}]]]>
+                <![CDATA[[TestResult name=checkExchangeCurrencyUsdToUa status=FAILURE method=AllureTestCurrency.checkExchangeCurrencyUsdToUa()[pri:3, instance:test.AllureTestCurrency@189b5fb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:39Z" name="beforeMethod" finished-at="2019-08-13T15:49:39Z" duration-ms="374" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:36Z" name="beforeMethod" finished-at="2019-08-13T16:10:37Z" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="checkExchangeCurrencyUsdToEu()[pri:4, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:39Z" name="checkExchangeCurrencyUsdToEu" finished-at="2019-08-13T15:49:46Z" duration-ms="6339" status="FAIL">
+        <test-method signature="checkExchangeCurrencyUsdToEu()[pri:4, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:37Z" name="checkExchangeCurrencyUsdToEu" finished-at="2019-08-13T16:10:43Z" duration-ms="6185" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [15.3] but found [0.0]]]>
@@ -238,91 +238,91 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExchangeCurrencyUsdToEu -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:46Z" name="afterMethod" finished-at="2019-08-13T15:49:46Z" duration-ms="270" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:43Z" name="afterMethod" finished-at="2019-08-13T16:10:43Z" duration-ms="311" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkExchangeCurrencyUsdToEu status=FAILURE method=AllureTestCurrency.checkExchangeCurrencyUsdToEu()[pri:4, instance:test.AllureTestCurrency@2b97cc1f] output={null}]]]>
+                <![CDATA[[TestResult name=checkExchangeCurrencyUsdToEu status=FAILURE method=AllureTestCurrency.checkExchangeCurrencyUsdToEu()[pri:4, instance:test.AllureTestCurrency@189b5fb1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AllureTestCurrency@2b97cc1f]" started-at="2019-08-13T15:49:46Z" name="tearDown" finished-at="2019-08-13T15:49:46Z" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AllureTestCurrency@189b5fb1]" started-at="2019-08-13T16:10:43Z" name="tearDown" finished-at="2019-08-13T16:10:44Z" duration-ms="587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.AllureTestCurrency -->
     </test> <!-- Currency TEst -->
-    <test started-at="2019-08-13T15:49:46Z" name="Search Test" finished-at="2019-08-13T15:50:01Z" duration-ms="14843">
+    <test started-at="2019-08-13T16:10:44Z" name="Search Test" finished-at="2019-08-13T16:10:55Z" duration-ms="11378">
       <class name="test.TestSearch">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:47Z" name="setUp" finished-at="2019-08-13T15:49:52Z" duration-ms="5035" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:44Z" name="setUp" finished-at="2019-08-13T16:10:47Z" duration-ms="3317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:52Z" name="beforeMethod" finished-at="2019-08-13T15:49:54Z" duration-ms="2610" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:47Z" name="beforeMethod" finished-at="2019-08-13T16:10:49Z" duration-ms="2342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestElementsInSearch()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:54Z" name="TestElementsInSearch" finished-at="2019-08-13T15:49:56Z" duration-ms="1505" status="PASS">
+        <test-method signature="TestElementsInSearch()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:49Z" name="TestElementsInSearch" finished-at="2019-08-13T16:10:50Z" duration-ms="800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestElementsInSearch -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:56Z" name="afterMethod" finished-at="2019-08-13T15:49:56Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:50Z" name="afterMethod" finished-at="2019-08-13T16:10:50Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestElementsInSearch status=SUCCESS method=TestSearch.TestElementsInSearch()[pri:0, instance:test.TestSearch@56da52a7] output={null}]]]>
+                <![CDATA[[TestResult name=TestElementsInSearch status=SUCCESS method=TestSearch.TestElementsInSearch()[pri:0, instance:test.TestSearch@77ee25f1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:56Z" name="beforeMethod" finished-at="2019-08-13T15:49:56Z" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:50Z" name="beforeMethod" finished-at="2019-08-13T16:10:51Z" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestEmptyPage()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:56Z" name="TestEmptyPage" finished-at="2019-08-13T15:49:57Z" duration-ms="518" status="PASS">
+        <test-method signature="TestEmptyPage()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:51Z" name="TestEmptyPage" finished-at="2019-08-13T16:10:51Z" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestEmptyPage -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:57Z" name="afterMethod" finished-at="2019-08-13T15:49:57Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:51Z" name="afterMethod" finished-at="2019-08-13T16:10:51Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestEmptyPage status=SUCCESS method=TestSearch.TestEmptyPage()[pri:0, instance:test.TestSearch@56da52a7] output={null}]]]>
+                <![CDATA[[TestResult name=TestEmptyPage status=SUCCESS method=TestSearch.TestEmptyPage()[pri:0, instance:test.TestSearch@77ee25f1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:57Z" name="beforeMethod" finished-at="2019-08-13T15:49:57Z" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:51Z" name="beforeMethod" finished-at="2019-08-13T16:10:51Z" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestSearchResultSortAZ()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:57Z" name="TestSearchResultSortAZ" finished-at="2019-08-13T15:49:58Z" duration-ms="804" status="PASS">
+        <test-method signature="TestSearchResultSortAZ()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:51Z" name="TestSearchResultSortAZ" finished-at="2019-08-13T16:10:52Z" duration-ms="759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearchResultSortAZ -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:58Z" name="afterMethod" finished-at="2019-08-13T15:49:58Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:52Z" name="afterMethod" finished-at="2019-08-13T16:10:52Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestSearchResultSortAZ status=SUCCESS method=TestSearch.TestSearchResultSortAZ()[pri:0, instance:test.TestSearch@56da52a7] output={null}]]]>
+                <![CDATA[[TestResult name=TestSearchResultSortAZ status=SUCCESS method=TestSearch.TestSearchResultSortAZ()[pri:0, instance:test.TestSearch@77ee25f1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:58Z" name="beforeMethod" finished-at="2019-08-13T15:49:58Z" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:52Z" name="beforeMethod" finished-at="2019-08-13T16:10:52Z" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TestSearchResultSortAZNotWork()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:58Z" name="TestSearchResultSortAZNotWork" finished-at="2019-08-13T15:49:59Z" duration-ms="1088" status="FAIL">
+        <test-method signature="TestSearchResultSortAZNotWork()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:52Z" name="TestSearchResultSortAZNotWork" finished-at="2019-08-13T16:10:53Z" duration-ms="789" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Lists differ at element [0]: Customizable Mug != Pack Mug + Framed Poster expected [Customizable Mug] but found [Pack Mug + Framed Poster]]]>
@@ -370,237 +370,237 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearchResultSortAZNotWork -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:49:59Z" name="afterMethod" finished-at="2019-08-13T15:50:00Z" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:53Z" name="afterMethod" finished-at="2019-08-13T16:10:54Z" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TestSearchResultSortAZNotWork status=FAILURE method=TestSearch.TestSearchResultSortAZNotWork()[pri:0, instance:test.TestSearch@56da52a7] output={null}]]]>
+                <![CDATA[[TestResult name=TestSearchResultSortAZNotWork status=FAILURE method=TestSearch.TestSearchResultSortAZNotWork()[pri:0, instance:test.TestSearch@77ee25f1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:50:00Z" name="beforeMethod" finished-at="2019-08-13T15:50:00Z" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:54Z" name="beforeMethod" finished-at="2019-08-13T16:10:54Z" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TetsAfterSearch()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:50:00Z" name="TetsAfterSearch" finished-at="2019-08-13T15:50:01Z" duration-ms="665" status="PASS">
+        <test-method signature="TetsAfterSearch()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:54Z" name="TetsAfterSearch" finished-at="2019-08-13T16:10:55Z" duration-ms="659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TetsAfterSearch -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:50:01Z" name="afterMethod" finished-at="2019-08-13T15:50:01Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:55Z" name="afterMethod" finished-at="2019-08-13T16:10:55Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TetsAfterSearch status=SUCCESS method=TestSearch.TetsAfterSearch()[pri:0, instance:test.TestSearch@56da52a7] output={null}]]]>
+                <![CDATA[[TestResult name=TetsAfterSearch status=SUCCESS method=TestSearch.TetsAfterSearch()[pri:0, instance:test.TestSearch@77ee25f1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@56da52a7]" started-at="2019-08-13T15:50:01Z" name="tearDown" finished-at="2019-08-13T15:50:01Z" duration-ms="594" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestSearch@77ee25f1]" started-at="2019-08-13T16:10:55Z" name="tearDown" finished-at="2019-08-13T16:10:55Z" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.TestSearch -->
     </test> <!-- Search Test -->
-    <test started-at="2019-08-13T15:50:01Z" name="Horizontal And Vertical Menu Test" finished-at="2019-08-13T15:50:16Z" duration-ms="14810">
+    <test started-at="2019-08-13T16:10:55Z" name="Horizontal And Vertical Menu Test" finished-at="2019-08-13T16:11:09Z" duration-ms="13598">
       <class name="test.HorizontalAndVerticalTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:01Z" name="setUp" finished-at="2019-08-13T15:50:05Z" duration-ms="4030" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:10:55Z" name="setUp" finished-at="2019-08-13T16:10:58Z" duration-ms="3251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:05Z" name="beforeMethod" finished-at="2019-08-13T15:50:08Z" duration-ms="2623" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:10:58Z" name="beforeMethod" finished-at="2019-08-13T16:11:00Z" duration-ms="2056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:08Z" name="init" finished-at="2019-08-13T15:50:08Z" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:00Z" name="init" finished-at="2019-08-13T16:11:01Z" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkClothes()[pri:1, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:08Z" name="checkClothes" finished-at="2019-08-13T15:50:09Z" duration-ms="1044" status="PASS">
+        <test-method signature="checkClothes()[pri:1, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:01Z" name="checkClothes" finished-at="2019-08-13T16:11:02Z" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkClothes -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:09Z" name="afterMethod" finished-at="2019-08-13T15:50:09Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:02Z" name="afterMethod" finished-at="2019-08-13T16:11:02Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkClothes status=SUCCESS method=HorizontalAndVerticalTest.checkClothes()[pri:1, instance:test.HorizontalAndVerticalTest@7e46d648] output={null}]]]>
+                <![CDATA[[TestResult name=checkClothes status=SUCCESS method=HorizontalAndVerticalTest.checkClothes()[pri:1, instance:test.HorizontalAndVerticalTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:09Z" name="beforeMethod" finished-at="2019-08-13T15:50:10Z" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:02Z" name="beforeMethod" finished-at="2019-08-13T16:11:02Z" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:10Z" name="init" finished-at="2019-08-13T15:50:10Z" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:02Z" name="init" finished-at="2019-08-13T16:11:02Z" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkMenClothes()[pri:2, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:10Z" name="checkMenClothes" finished-at="2019-08-13T15:50:12Z" duration-ms="1668" status="PASS">
+        <test-method signature="checkMenClothes()[pri:2, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:02Z" name="checkMenClothes" finished-at="2019-08-13T16:11:04Z" duration-ms="1665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenClothes -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:12Z" name="afterMethod" finished-at="2019-08-13T15:50:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:04Z" name="afterMethod" finished-at="2019-08-13T16:11:04Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkMenClothes status=SUCCESS method=HorizontalAndVerticalTest.checkMenClothes()[pri:2, instance:test.HorizontalAndVerticalTest@7e46d648] output={null}]]]>
+                <![CDATA[[TestResult name=checkMenClothes status=SUCCESS method=HorizontalAndVerticalTest.checkMenClothes()[pri:2, instance:test.HorizontalAndVerticalTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:12Z" name="beforeMethod" finished-at="2019-08-13T15:50:12Z" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:04Z" name="beforeMethod" finished-at="2019-08-13T16:11:04Z" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:12Z" name="init" finished-at="2019-08-13T15:50:12Z" duration-ms="236" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:04Z" name="init" finished-at="2019-08-13T16:11:05Z" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkAccessories()[pri:3, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:12Z" name="checkAccessories" finished-at="2019-08-13T15:50:13Z" duration-ms="900" status="PASS">
+        <test-method signature="checkAccessories()[pri:3, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:05Z" name="checkAccessories" finished-at="2019-08-13T16:11:05Z" duration-ms="820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAccessories -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:13Z" name="afterMethod" finished-at="2019-08-13T15:50:13Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:05Z" name="afterMethod" finished-at="2019-08-13T16:11:05Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkAccessories status=SUCCESS method=HorizontalAndVerticalTest.checkAccessories()[pri:3, instance:test.HorizontalAndVerticalTest@7e46d648] output={null}]]]>
+                <![CDATA[[TestResult name=checkAccessories status=SUCCESS method=HorizontalAndVerticalTest.checkAccessories()[pri:3, instance:test.HorizontalAndVerticalTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:13Z" name="beforeMethod" finished-at="2019-08-13T15:50:13Z" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:05Z" name="beforeMethod" finished-at="2019-08-13T16:11:06Z" duration-ms="311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:13Z" name="init" finished-at="2019-08-13T15:50:14Z" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:06Z" name="init" finished-at="2019-08-13T16:11:06Z" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkStationeryAccessories()[pri:4, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:14Z" name="checkStationeryAccessories" finished-at="2019-08-13T15:50:14Z" duration-ms="676" status="PASS">
+        <test-method signature="checkStationeryAccessories()[pri:4, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:06Z" name="checkStationeryAccessories" finished-at="2019-08-13T16:11:07Z" duration-ms="626" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStationeryAccessories -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:14Z" name="afterMethod" finished-at="2019-08-13T15:50:14Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:07Z" name="afterMethod" finished-at="2019-08-13T16:11:07Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkStationeryAccessories status=SUCCESS method=HorizontalAndVerticalTest.checkStationeryAccessories()[pri:4, instance:test.HorizontalAndVerticalTest@7e46d648] output={null}]]]>
+                <![CDATA[[TestResult name=checkStationeryAccessories status=SUCCESS method=HorizontalAndVerticalTest.checkStationeryAccessories()[pri:4, instance:test.HorizontalAndVerticalTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:14Z" name="beforeMethod" finished-at="2019-08-13T15:50:15Z" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:07Z" name="beforeMethod" finished-at="2019-08-13T16:11:07Z" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:15Z" name="init" finished-at="2019-08-13T15:50:15Z" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:07Z" name="init" finished-at="2019-08-13T16:11:07Z" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="checkArt()[pri:5, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:15Z" name="checkArt" finished-at="2019-08-13T15:50:16Z" duration-ms="693" status="PASS">
+        <test-method signature="checkArt()[pri:5, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:07Z" name="checkArt" finished-at="2019-08-13T16:11:08Z" duration-ms="914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkArt -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:16Z" name="afterMethod" finished-at="2019-08-13T15:50:16Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:08Z" name="afterMethod" finished-at="2019-08-13T16:11:08Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkArt status=SUCCESS method=HorizontalAndVerticalTest.checkArt()[pri:5, instance:test.HorizontalAndVerticalTest@7e46d648] output={null}]]]>
+                <![CDATA[[TestResult name=checkArt status=SUCCESS method=HorizontalAndVerticalTest.checkArt()[pri:5, instance:test.HorizontalAndVerticalTest@6050462a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HorizontalAndVerticalTest@7e46d648]" started-at="2019-08-13T15:50:16Z" name="tearDown" finished-at="2019-08-13T15:50:16Z" duration-ms="612" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.HorizontalAndVerticalTest@6050462a]" started-at="2019-08-13T16:11:08Z" name="tearDown" finished-at="2019-08-13T16:11:09Z" duration-ms="714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.HorizontalAndVerticalTest -->
     </test> <!-- Horizontal And Vertical Menu Test -->
-    <test started-at="2019-08-13T15:50:16Z" name="Cart Functional Test" finished-at="2019-08-13T15:50:41Z" duration-ms="24934">
+    <test started-at="2019-08-13T16:11:09Z" name="Cart Functional Test" finished-at="2019-08-13T16:11:34Z" duration-ms="24989">
       <class name="test.TestCartFunctional">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:16Z" name="setUp" finished-at="2019-08-13T15:50:20Z" duration-ms="4077" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:09Z" name="setUp" finished-at="2019-08-13T16:11:12Z" duration-ms="3298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:20Z" name="beforeMethod" finished-at="2019-08-13T15:50:23Z" duration-ms="2274" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:12Z" name="beforeMethod" finished-at="2019-08-13T16:11:15Z" duration-ms="2586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="addProductToCart()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:23Z" name="addProductToCart" finished-at="2019-08-13T15:50:26Z" duration-ms="3253" status="PASS">
+        <test-method signature="addProductToCart()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:15Z" name="addProductToCart" finished-at="2019-08-13T16:11:18Z" duration-ms="3151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:26Z" name="afterMethod" finished-at="2019-08-13T15:50:26Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:18Z" name="afterMethod" finished-at="2019-08-13T16:11:18Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=TestCartFunctional.addProductToCart()[pri:0, instance:test.TestCartFunctional@75b3673] output={null}]]]>
+                <![CDATA[[TestResult name=addProductToCart status=SUCCESS method=TestCartFunctional.addProductToCart()[pri:0, instance:test.TestCartFunctional@34523d46] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:26Z" name="beforeMethod" finished-at="2019-08-13T15:50:26Z" duration-ms="447" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:18Z" name="beforeMethod" finished-at="2019-08-13T16:11:18Z" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="deleteProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:26Z" name="deleteProductFromShoppingCart" finished-at="2019-08-13T15:50:31Z" duration-ms="4694" status="PASS">
+        <test-method signature="deleteProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:18Z" name="deleteProductFromShoppingCart" finished-at="2019-08-13T16:11:23Z" duration-ms="4755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteProductFromShoppingCart -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:31Z" name="afterMethod" finished-at="2019-08-13T15:50:31Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:23Z" name="afterMethod" finished-at="2019-08-13T16:11:23Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=deleteProductFromShoppingCart status=SUCCESS method=TestCartFunctional.deleteProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@75b3673] output={null}]]]>
+                <![CDATA[[TestResult name=deleteProductFromShoppingCart status=SUCCESS method=TestCartFunctional.deleteProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@34523d46] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:31Z" name="beforeMethod" finished-at="2019-08-13T15:50:31Z" duration-ms="319" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:23Z" name="beforeMethod" finished-at="2019-08-13T16:11:23Z" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="priceProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:31Z" name="priceProductFromShoppingCart" finished-at="2019-08-13T15:50:37Z" duration-ms="5818" status="PASS">
+        <test-method signature="priceProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:23Z" name="priceProductFromShoppingCart" finished-at="2019-08-13T16:11:30Z" duration-ms="6233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceProductFromShoppingCart -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:37Z" name="afterMethod" finished-at="2019-08-13T15:50:37Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:30Z" name="afterMethod" finished-at="2019-08-13T16:11:30Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=priceProductFromShoppingCart status=SUCCESS method=TestCartFunctional.priceProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@75b3673] output={null}]]]>
+                <![CDATA[[TestResult name=priceProductFromShoppingCart status=SUCCESS method=TestCartFunctional.priceProductFromShoppingCart()[pri:0, instance:test.TestCartFunctional@34523d46] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:37Z" name="beforeMethod" finished-at="2019-08-13T15:50:37Z" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:30Z" name="beforeMethod" finished-at="2019-08-13T16:11:30Z" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="wrongAddProductToCart()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:37Z" name="wrongAddProductToCart" finished-at="2019-08-13T15:50:40Z" duration-ms="2767" status="FAIL">
+        <test-method signature="wrongAddProductToCart()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:30Z" name="wrongAddProductToCart" finished-at="2019-08-13T16:11:33Z" duration-ms="2813" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -647,18 +647,18 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongAddProductToCart -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:40Z" name="afterMethod" finished-at="2019-08-13T15:50:40Z" duration-ms="286" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:33Z" name="afterMethod" finished-at="2019-08-13T16:11:33Z" duration-ms="295" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=wrongAddProductToCart status=FAILURE method=TestCartFunctional.wrongAddProductToCart()[pri:0, instance:test.TestCartFunctional@75b3673] output={null}]]]>
+                <![CDATA[[TestResult name=wrongAddProductToCart status=FAILURE method=TestCartFunctional.wrongAddProductToCart()[pri:0, instance:test.TestCartFunctional@34523d46] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestCartFunctional@75b3673]" started-at="2019-08-13T15:50:40Z" name="tearDown" finished-at="2019-08-13T15:50:41Z" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestCartFunctional@34523d46]" started-at="2019-08-13T16:11:33Z" name="tearDown" finished-at="2019-08-13T16:11:34Z" duration-ms="615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

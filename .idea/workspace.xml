@@ -2,52 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1abd54f-77ba-402a-b6bb-353055589459" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/prestashop.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/Currencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Currencies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/SocialTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/SocialTitle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$DropdownOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$DropdownOptions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CategoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CategoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CreateAccount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CreateAccount$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/CreateAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CreateAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Forgot_password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Forgot_password.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MyAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProductComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ProductComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProductListComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ProductListComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchEmptyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchEmptyPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchResultPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SelectSomeClothesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SelectSomeClothesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ShoppingCartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/UserInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/UserInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/YourAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/YourAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-07-30T14-30-10_729-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-07-30T14-30-10_729.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/prestashop.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AllureTestCurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/AllureTestCurrency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CreateAccountWithoutCred.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CreateAccountWithoutCred.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CreateExistUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CreateExistUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/DB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/HorizontalAndVerticalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/HorizontalAndVerticalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUserFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUserFail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestCartFunctional.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestCartFunctional.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestLoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestLoginForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/APICurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/APICurrency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/HorizontalAndVerticalTestAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/HorizontalAndVerticalTestAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/jsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/jsonParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/testAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/testAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-08-13T18-49-07_642.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Horizontal And Vertical Menu Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Horizontal And Vertical Menu Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Search Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Search Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.AllureTestCurrency.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.HorizontalAndVerticalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestCartFunctional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestLoginForm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestSearch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/Cart Functional Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/Currency TEst.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/Horizontal And Vertical Menu Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/Search Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/Command line test ae4f8216-4ed1-457f-8772-e95f49957b13.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/Command line test 7bff5c9f-7448-4746-91e5-dee4527f50da.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/Command line test b5697ba9-7bf0-4916-a0e5-16406cb6133a.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/Command line test a207170e-f341-4e93-97a6-37cc62b76384.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.HorizontalAndVerticalTest/Command line test ae4f8216-4ed1-457f-8772-e95f49957b13.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.HorizontalAndVerticalTest/Command line test ae4f8216-4ed1-457f-8772-e95f49957b13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestCartFunctional/Command line test 7bff5c9f-7448-4746-91e5-dee4527f50da.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestCartFunctional/Command line test 7bff5c9f-7448-4746-91e5-dee4527f50da.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestCartFunctional/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestLoginForm/Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestLoginForm/Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestLoginForm/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestSearch/Command line test b5697ba9-7bf0-4916-a0e5-16406cb6133a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestSearch/Command line test b5697ba9-7bf0-4916-a0e5-16406cb6133a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestSearch/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tools.TestRunner/Command line test a207170e-f341-4e93-97a6-37cc62b76384.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tools.TestRunner/Command line test a207170e-f341-4e93-97a6-37cc62b76384.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
