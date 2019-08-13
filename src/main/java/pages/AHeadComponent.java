@@ -39,8 +39,10 @@ public class AHeadComponent {
     private DropdownOptions dropdownOptions;
     @FindBy(xpath = "//div[@id=\"_desktop_cart\"]")
     private WebElement cartButton;
+
     @FindBy(css = "#_desktop_currency_selector > div > button ")
     private WebElement currencyMenu;
+
     //Switch for choose currency
     public void chooseCurrency(Currencies currency) {
         clickCurrencyMenu();

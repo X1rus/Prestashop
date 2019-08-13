@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="b1abd54f-77ba-402a-b6bb-353055589459" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AHeadComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AHeadComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tools/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$DropdownOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$DropdownOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/DBconnect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,19 +67,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\test" />
-      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\pages" />
-      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\data" />
-      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\resources" />
-      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SOFTSERVE\DEMO_3\Prestashop\allure-results" />
       <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\com\softserve\edu\prestashop\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\test" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\pages" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\data" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\resources" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -87,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AllureTestCurrency">
+  <component name="RunManager" selected="TestNG.D:/PrestaShop/Prestashop/testng.xml">
     <configuration name="AllureTestCurrency" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="prestashop" />
       <extension name="coverage">
@@ -123,18 +130,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.TestSearchResultSortAZNotWork" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/PrestaShop/Prestashop/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="prestashop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestSearch" />
-      <option name="METHOD_NAME" value="TestSearchResultSortAZNotWork" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -178,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/PrestaShop/Prestashop/testng.xml" />
         <item itemvalue="TestNG.AllureTestCurrency" />
         <item itemvalue="TestNG.AllureTestCurrency.checkCurrency" />
         <item itemvalue="TestNG.testAPI.TestLanguageJsonString" />
         <item itemvalue="TestNG.testAPI" />
-        <item itemvalue="TestNG.TestSearch.TestSearchResultSortAZNotWork" />
       </list>
     </recent_temporary>
   </component>

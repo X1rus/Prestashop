@@ -69,7 +69,7 @@ public abstract class TestRunner {
         }
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterClass//(alwaysRun = true)
     public void tearDown() {
         driver.quit();
     }
