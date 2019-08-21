@@ -28,12 +28,12 @@ public abstract class TestRunner {
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @BeforeMethod
     public void beforeMethod() {
-        driver.get("http://35.225.39.45/index.php");
+        driver.get("http://35.225.39.45/index.php?id_lang=1");
     }
 
     protected HomePage loadApplication() {

@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1abd54f-77ba-402a-b6bb-353055589459" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-08-13T18-49-07_642.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delete_allure-results.bat" beforeDir="false" afterPath="$PROJECT_DIR$/delete_allure-results.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runallure.bat" beforeDir="false" afterPath="$PROJECT_DIR$/runallure.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AHeadComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AHeadComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/HorizontalAndVerticalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/HorizontalAndVerticalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tools/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/Currencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/Currencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/SocialTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/SocialTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$DropdownOptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent$DropdownOptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/AHeadComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AHeadComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CategoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CategoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CreateAccount$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CreateAccount$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/CreateAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/CreateAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/Forgot_password.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Forgot_password.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProductComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ProductComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ProductListComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ProductListComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchEmptyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchEmptyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/SelectSomeClothesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SelectSomeClothesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ShoppingCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ShoppingCartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/UserInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/UserInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/YourAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/YourAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-08-13T19-10-06_569.dump" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Cart Functional Test.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/PrestashopTest/Currency TEst.html" beforeDir="false" />
@@ -23,7 +58,6 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.AllureTestCurrency.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.HorizontalAndVerticalTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestCartFunctional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestLoginForm.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.TestSearch.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/Cart Functional Test.properties" beforeDir="false" />
@@ -41,81 +75,28 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/testng.xml.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/PrestashopTest/toc.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/Command line test ae4f8216-4ed1-457f-8772-e95f49957b13.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.HorizontalAndVerticalTest/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/Command line test 7bff5c9f-7448-4746-91e5-dee4527f50da.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestCartFunctional/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestLoginForm/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/Command line test b5697ba9-7bf0-4916-a0e5-16406cb6133a.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/test.TestSearch/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/Command line test a207170e-f341-4e93-97a6-37cc62b76384.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/tools.TestRunner/toc.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.HorizontalAndVerticalTest/Command line test ae4f8216-4ed1-457f-8772-e95f49957b13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.HorizontalAndVerticalTest/Command line test ae4f8216-4ed1-457f-8772-e95f49957b13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestCartFunctional/Command line test 7bff5c9f-7448-4746-91e5-dee4527f50da.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestCartFunctional/Command line test 7bff5c9f-7448-4746-91e5-dee4527f50da.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestCartFunctional/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestLoginForm/Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestLoginForm/Command line test ae874f50-b5fa-4288-8faa-a35ae7b25171.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestLoginForm/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestSearch/Command line test b5697ba9-7bf0-4916-a0e5-16406cb6133a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestSearch/Command line test b5697ba9-7bf0-4916-a0e5-16406cb6133a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.TestSearch/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tools.TestRunner/Command line test a207170e-f341-4e93-97a6-37cc62b76384.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tools.TestRunner/Command line test a207170e-f341-4e93-97a6-37cc62b76384.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AllureTestCurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/AllureTestCurrency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CreateAccountWithoutCred.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CreateAccountWithoutCred.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CreateExistUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/CreateExistUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/HorizontalAndVerticalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/HorizontalAndVerticalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUserFail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/LogInRegisteredUserFail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestCartFunctional.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestCartFunctional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestLoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestLoginForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/TestSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/APICurrency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/APICurrency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/HorizontalAndVerticalTestAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/HorizontalAndVerticalTestAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/jsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/jsonParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testAPI/testAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testAPI/testAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tools/TestRunner.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,6 +127,8 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="12" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -167,24 +150,24 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SOFTSERVE\DEMO_3\Prestashop\allure-results" />
-      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\com\softserve\edu\prestashop\pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\test" />
       <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\pages" />
       <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\java\data" />
       <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\main\resources" />
       <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SOFTSERVE\DEMO_3\Prestashop\allure-results" />
+      <recent name="D:\Programing\IntelliJ IDEA Projects\SET\prestashop\src\test\java\com\softserve\edu\prestashop\pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -245,16 +228,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testAPI" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLoginForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="prestashop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testAPI.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testAPI" />
-      <option name="MAIN_CLASS_NAME" value="testAPI.testAPI" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TestLoginForm" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -283,10 +266,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/PrestaShop/Prestashop/testng.xml" />
-        <item itemvalue="TestNG.AllureTestCurrency" />
+        <item itemvalue="TestNG.TestLoginForm" />
         <item itemvalue="TestNG.AllureTestCurrency.checkCurrency" />
+        <item itemvalue="TestNG.AllureTestCurrency" />
         <item itemvalue="TestNG.testAPI.TestLanguageJsonString" />
-        <item itemvalue="TestNG.testAPI" />
       </list>
     </recent_temporary>
   </component>
@@ -305,6 +288,11 @@
       <workItem from="1564037626783" duration="32945000" />
       <workItem from="1564411927556" duration="1973000" />
       <workItem from="1565348038836" duration="829000" />
+      <workItem from="1565820021335" duration="1272000" />
+      <workItem from="1565852151956" duration="1894000" />
+      <workItem from="1565854674870" duration="3178000" />
+      <workItem from="1566291519010" duration="96000" />
+      <workItem from="1566373634662" duration="3604000" />
     </task>
     <servers />
   </component>
@@ -345,5 +333,16 @@
     </ignored-roots>
     <MESSAGE value="screenshot" />
     <option name="LAST_COMMIT_MESSAGE" value="screenshot" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/AllureTestCurrency.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -40,7 +40,7 @@ public class AHeadComponent {
     @FindBy(xpath = "//div[@id=\"_desktop_cart\"]")
     private WebElement cartButton;
 
-    @FindBy(css = "#_desktop_currency_selector > div > button ")
+    @FindBy(css = "#_desktop_currency_selector > div > button")
     private WebElement currencyMenu;
 
     //Switch for choose currency
@@ -127,11 +127,11 @@ public class AHeadComponent {
 
     //search Button //--------------Shevchuk Oleksii
 
-
+    @Step("getSearchButton")
     public WebElement getSearchButton() {
         return searchButton;
     }
-
+    @Step("clickSearchButton")
     public void clickSearchButton() {
         getSearchButton().click();
     }
@@ -185,14 +185,14 @@ public class AHeadComponent {
     public WebElement getButtonAddToCart() {
         return buttonAddToCart;
     }
-
+    @Step("clickButtonAddToCart")
     public void clickButtonAddToCart() {
         getButtonAddToCart().click();
     }
 
     //Pelikan Yurii
     //CartButton...........
-
+    @Step("getCartButton")
     public WebElement getCartButton() {
         return cartButton;
     }
@@ -265,37 +265,37 @@ public class AHeadComponent {
 
 
     // menuTop
-
+    @Step("clickClothesButton")
     public CategoryPage clickClothesButton() {
         clothesButton.click();
         return new CategoryPage(driver);
     }
-
+    @Step("clickMenClothesButton")
     public CategoryPage clickMenClothesButton() {
         menClothesButton.click();
         return new CategoryPage(driver);
     }
-
+    @Step("hoverClothesButton")
     public void hoverClothesButton() {
         Actions builder = new Actions(driver);
         builder.moveToElement(clothesButton).perform();
     }
-
+    @Step("clickAccessoriesButton")
     public CategoryPage clickAccessoriesButton() {
         accessoriesButton.click();
         return new CategoryPage(driver);
     }
-
+    @Step("clickStationeryAccessoriesButton")
     public CategoryPage clickStationeryAccessoriesButton() {
         stationeryAccessoriesButton.click();
         return new CategoryPage(driver);
     }
-
+    @Step("hoverAccessoriesButton")
     public void hoverAccessoriesButton() {
         Actions builder = new Actions(driver);
         builder.moveToElement(accessoriesButton).perform();
     }
-
+    @Step("clickArtButton")
     public CategoryPage clickArtButton() {
         artButton.click();
         return new CategoryPage(driver);

@@ -18,7 +18,7 @@ public class HorizontalAndVerticalTest extends TestRunner {
     }
 
     @Description("checkClothes")
-    @Test(priority = 1)
+    @Test
     public void checkClothes() throws InterruptedException {
         //Arrange
         CategoryPage clothesPage;
@@ -35,7 +35,7 @@ public class HorizontalAndVerticalTest extends TestRunner {
     }
 
     @Description("checkMenClothes")
-    @Test(priority = 2)
+    @Test
     public void checkMenClothes() throws InterruptedException {
         //Arrange
         CategoryPage menClothesPage;
@@ -54,7 +54,7 @@ public class HorizontalAndVerticalTest extends TestRunner {
     }
 
     @Description("checkAccessories")
-    @Test(priority = 3)
+    @Test
     public void checkAccessories() throws InterruptedException {
         //Arrange
         CategoryPage accessoriesPage;
@@ -70,7 +70,7 @@ public class HorizontalAndVerticalTest extends TestRunner {
     }
 
     @Description("checkStationeryAccessories")
-    @Test(priority = 4)
+    @Test
     public void checkStationeryAccessories() {
         //Arrange
         CategoryPage stationeryAccessoriesPage;
@@ -87,7 +87,7 @@ public class HorizontalAndVerticalTest extends TestRunner {
     }
 
     @Description("checkArt")
-    @Test(priority = 5)
+    @Test
     public void checkArt() {
         //Arrange
         CategoryPage artPage;
