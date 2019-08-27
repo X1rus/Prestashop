@@ -2,6 +2,8 @@ package test;
 
 import data.Category;
 import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -17,7 +19,8 @@ public class HorizontalAndVerticalTest extends TestRunner {
         homePage = loadApplication();
     }
 
-    @Description("checkClothes")
+    @Description("@Description class HorizontalAndVerticalTest; checkClothes().")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void checkClothes() throws InterruptedException {
         //Arrange
@@ -34,7 +37,8 @@ public class HorizontalAndVerticalTest extends TestRunner {
         Assert.assertEquals(actual, expected);
     }
 
-    @Description("checkMenClothes")
+    @Description("@Description class HorizontalAndVerticalTest; checkMenClothes().")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void checkMenClothes() throws InterruptedException {
         //Arrange
@@ -53,7 +57,8 @@ public class HorizontalAndVerticalTest extends TestRunner {
         Assert.assertEquals(actual, expected);
     }
 
-    @Description("checkAccessories")
+    @Description("@Description class HorizontalAndVerticalTest; checkAccessories().")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void checkAccessories() throws InterruptedException {
         //Arrange
@@ -69,7 +74,8 @@ public class HorizontalAndVerticalTest extends TestRunner {
         Assert.assertEquals(actual, expected);
     }
 
-    @Description("checkStationeryAccessories")
+    @Description("@Description class HorizontalAndVerticalTest; checkStationeryAccessories().")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void checkStationeryAccessories() {
         //Arrange
@@ -86,7 +92,8 @@ public class HorizontalAndVerticalTest extends TestRunner {
         Assert.assertEquals(actual, expected);
     }
 
-    @Description("checkArt")
+    @Description("@Description class HorizontalAndVerticalTest; checkArt().")
+    @Severity(SeverityLevel.NORMAL)
     @Test
     public void checkArt() {
         //Arrange
