@@ -24,7 +24,11 @@ public abstract class TestRunner {
     @BeforeClass
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+//        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
+
+        String chromepath = System.getProperty("user.dir")
+                + "\\src\\main\\resources\\chromedriver.exe";
+        System.setProperty("webdriver.chrome.driver", chromepath);
 
         driver = new ChromeDriver();
         driver.manage().window().maximize();
