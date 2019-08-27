@@ -25,11 +25,8 @@ public abstract class TestRunner {
     public void setUp() {
 
 //        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
-
-        String chromepath = System.getProperty("user.dir")
-                + "/var/lib/jenkins/workspace/Presta\\src\\main\\resources\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", chromepath);
-
+        System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Presta\src\main\resources\chromedriver.exe");
+        
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
