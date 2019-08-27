@@ -27,7 +27,7 @@ public abstract class TestRunner {
 //        System.setProperty("webdriver.chrome.driver", "src\\main\\resources\\chromedriver.exe");
 
         String chromepath = System.getProperty("user.dir")
-                + "\\src\\main\\resources\\chromedriver.exe";
+                + "/var/lib/jenkins/workspace/Presta\\src\\main\\resources\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", chromepath);
 
         driver = new ChromeDriver();
